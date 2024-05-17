@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>BidBay</title>
+  </head>
+  <body style="padding: 10px 30px;">
+    <h1 id="logo">
+      <a href="">Bid<span id="span">Bay</span></a>
+    </h1>
+    <div id="cover">
+      <form>
+        <h1 style="color: white; font-weight: 600">Sign up</h1>
+        <div>
+          <input id="name" type="text" placeholder="Full Name" />
+          <label class="la" for="name">Full Name</label>
+        </div>
+        <div>
+          <input id="mail" type="mail" placeholder="Email" />
+          <label class="la" for="mail">Email</label>
+        </div>
+        <div>
+          <input id="mobile" type="mobile" placeholder="Phone no" />
+          <label class="la" for="mobile">Phone number</label>
+        </div>
+        <div>
+          <input id="pswd" type="password" placeholder="Password" />
+          <label class="la" for="pswd">password</label>
+        </div>
+        <div>
+          <input id="cpswd" type="password" placeholder="Confirm password" />
+          <label id="lp" class="error" for="cpswd">Password do not match !!</label>
+        </div>
+        <p id="acc" for="login" style="color: white">already have a account?</p>
+        <a id="login" href="./login.html">Login</a>
+        <input id="submit" type="submit" value="sign up" />
+        <label id="error" class="error" for="submit">Email already exists!. Please Login <a href="./login.html">here</a> </label>
+      </form>
+    </div>
+    <script src="./js/register.js"></script>
+  </body>
+</html>

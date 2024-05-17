@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  background-image: url(../photos/pexels-photo-281260.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  padding:0 55px 0;
+}
+
+.header-right,
+.profile-sec {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 70px;
+}
+
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+
+ul li {
+  margin: 0 10px 0;
+  list-style: none;
+}
+
+#profile {
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  width: fit-content;
+  height: fit-content;
+  color: aliceblue;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+#container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.prdt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid transparent;
+  width: 250px;
+  height: 200px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: black;
+}
+.pd {
+  font-family: sans-serif;
+  text-align: center;
+}
+p {
+  font-family: sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: large;
+}
+
+.d {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  transition: all 5ms ease-in-out;
+  font-family: sans-serif;
+  border: white;
+}
+
+button:hover {
+  background-color: blue;
+  color: white;
+}
+
+.prdt:hover {
+  transform: scale(1.09);
+  transition-delay: 55ms;
+  transition-duration: 100ms;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}

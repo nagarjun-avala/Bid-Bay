@@ -1,0 +1,199 @@
+{
+    "users": [
+      {
+        "id": "1",
+        "title": "json-server",
+        "author": "typicode"
+      },
+      {
+        "fullname": "advaith",
+        "email": "advaith@gmail.com",
+        "amount": 1000000,
+        "mobile": "1234567890",
+        "password": "123",
+        "bidsWon": [],
+        "id": "2"
+      },
+      {
+        "fullname": "ashi",
+        "email": "ashi@gmail.com",
+        "amount": 1000000,
+        "mobile": "9985062377",
+        "password": "123",
+        "bidsWon": [],
+        "id": "3"
+      },
+      {
+        "fullname": "Madhu Sudhan",
+        "email": "madhu@gmail.com",
+        "amount": 1000000,
+        "mobile": "7799722009",
+        "password": "123",
+        "bidsWon": [],
+        "id": "4"
+      },
+      {
+        "fullname": "ashish",
+        "email": "ashish@gmail.com",
+        "amount": 1000000,
+        "mobile": "9985062370",
+        "password": "ashish",
+        "bidsWon": [],
+        "id": "5"
+      },
+      {
+        "fullname": "prasad",
+        "email": "prasad@gmail.com",
+        "mobile": "9618272085",
+        "password": "123",
+        "amount": 1000000,
+        "bidsWon": [],
+        "id": "6"
+      }
+    ],
+    "bids": [
+      {
+        "id": "1",
+        "number": 9999,
+        "price": 1000,
+        "isActive": true,
+        "bidAmount": 0
+      },
+      {
+        "id": "2",
+        "number": 1111,
+        "price": 5000,
+        "isActive": true,
+        "bidAmount": 0
+      },
+      {
+        "id": "3",
+        "number": 7000,
+        "price": 1000,
+        "isActive": true,
+        "bidAmount": 0
+      },
+      {
+        "id": "4",
+        "number": 8888,
+        "price": 10000,
+        "isActive": true,
+        "bidAmount": 0
+      },
+      {
+        "id": "5",
+        "number": 2727,
+        "price": 100000,
+        "isActive": true,
+        "bidAmount": 0
+      },
+      {
+        "id": "6",
+        "number": 9000,
+        "price": 10000,
+        "isActive": true,
+        "bidAmount": 0
+      },
+      {
+        "id": "7",
+        "number": 9111,
+        "price": 50000,
+        "isActive": true,
+        "bidAmount": 0
+      },
+      {
+        "id": "8",
+        "number": 1001,
+        "price": 100000,
+        "isActive": true,
+        "bidAmount": 0
+      },
+      {
+        "id": "9",
+        "number": 5757,
+        "price": 10000,
+        "isActive": true,
+        "bidAmount": 0
+      },
+      {
+        "id": "10",
+        "number": 7575,
+        "price": 10000,
+        "isActive": true,
+        "bidAmount": 0
+      },
+      {
+        "id": "11",
+        "number": 1719,
+        "price": 10000,
+        "isActive": true,
+        "bidAmount": 0
+      },
+      {
+        "id": "12",
+        "number": 1010,
+        "price": 50000,
+        "isActive": true,
+        "bidAmount": 0
+      },
+      {
+        "id": "13",
+        "number": 9696,
+        "price": 10000,
+        "isActive": true,
+        "bidAmount": 0
+      },
+      {
+        "id": "14",
+        "number": 6969,
+        "price": 10000,
+        "isActive": true,
+        "bidAmount": 0
+      },
+      {
+        "id": "15",
+        "number": 2828,
+        "price": 1000,
+        "isActive": true,
+        "bidAmount": 0
+      },
+      {
+        "id": "16",
+        "number": 9997,
+        "price": 5000,
+        "isActive": true,
+        "bidAmount": 0
+      },
+      {
+        "id": "17",
+        "number": 7777,
+        "price": 50000,
+        "isActive": true,
+        "bidAmount": 0
+      },
+      {
+        "id": "18",
+        "number": 8989,
+        "price": 1000,
+        "isActive": true,
+        "bidAmount": 0
+      },
+      {
+        "id": "19",
+        "number": 8888,
+        "price": 4000,
+        "isActive": true,
+        "bidAmount": 0
+      },
+      {
+        "id": "20",
+        "number": 9896,
+        "price": 6000,
+        "isActive": true,
+        "bidAmount": 0
+      }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }
