@@ -21,7 +21,7 @@ document.forms[0].addEventListener("submit", (e) => {
   let error = document.getElementById("error");
   let lp = document.getElementById("lp");
 
-  fetch(`http://localhost:3000/users?email=${credentials.email}`, {
+  fetch(`https://bid-bay-gvy2.onrender.com//users?email=${credentials.email}`, {
     method: "get",
     headers: {
       "Content-Type": "application/json",
@@ -37,7 +37,7 @@ document.forms[0].addEventListener("submit", (e) => {
         if (credentials.password != credentials.cpassword) {
           lp.style.display = "block";
         } else {
-          fetch("http://localhost:3000/users", {
+          fetch("https://bid-bay-gvy2.onrender.com//users", {
             method: "post",
             headers: {
               "Content-Type": "application/json",

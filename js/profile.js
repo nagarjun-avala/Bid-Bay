@@ -2,7 +2,7 @@ var userId = window.localStorage.getItem("userId");
 var loggedUser = {};
 
 async function profile() {
-  await fetch(`http://localhost:3000/users/${userId}`, {
+  await fetch(`https://bid-bay-gvy2.onrender.com//users/${userId}`, {
     method: "get",
     headers: {
       "Content-Type": "application/json",

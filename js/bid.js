@@ -15,7 +15,7 @@ function formatIndianCurrency(number) {
 }
 
 async function profile() {
-  await fetch(`http://localhost:3000/users/${userId}`, {
+  await fetch(`https://bid-bay-gvy2.onrender.com//users/${userId}`, {
     method: "get",
     headers: {
       "Content-Type": "application/json",
@@ -52,7 +52,7 @@ function getRandomObjectsFromArray(array, numObjects) {
 }
 
 const getUsers = async () => {
-  await fetch(`http://localhost:3000/users`, {
+  await fetch(`https://bid-bay-gvy2.onrender.com//users`, {
     method: "get",
     headers: {
       "Content-Type": "application/json",
@@ -130,7 +130,7 @@ function countdownTimer(bidUserId, amount) {
 async function fetchBidClose(bidUserId, bidAmount) {
   var user = {};
   // This Fetch function is for getting the user details - Amount
-  await fetch(`http://localhost:3000/users?id=${bidUserId}`, {
+  await fetch(`https://bid-bay-gvy2.onrender.com//users?id=${bidUserId}`, {
     method: "get",
     headers: {
       "Content-Type": "application/json",
@@ -156,7 +156,7 @@ async function fetchBidClose(bidUserId, bidAmount) {
 
       // TODO: ,bidsWon:[...user.bidsWon,] Add won bid ids
       // Updating bid data: Setting isActive to false
-      await fetch(`http://localhost:3000/bids/${bidData.id}`, {
+      await fetch(`https://bid-bay-gvy2.onrender.com//bids/${bidData.id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
@@ -164,7 +164,7 @@ async function fetchBidClose(bidUserId, bidAmount) {
         body: JSON.stringify(bidData),
       });
       // Then Update Amount
-      await fetch(`http://localhost:3000/users/${user.id}`, {
+      await fetch(`https://bid-bay-gvy2.onrender.com//users/${user.id}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",

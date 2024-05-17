@@ -8,7 +8,7 @@ const home = async () => {
   if (!userId) {
     window.location.assign("/login.html");
   } else {
-    fetch(`http://localhost:3000/users?id=${userId}`, {
+    fetch(`https://bid-bay-gvy2.onrender.com//users?id=${userId}`, {
       method: "get",
       headers: {
         "Content-Type": "application/json",
@@ -33,7 +33,7 @@ const showBidData = async () => {
   container.setAttribute("id", "container");
   document.body.append(container);
 
-  fetch(`http://localhost:3000/bids`, {
+  fetch(`https://bid-bay-gvy2.onrender.com//bids`, {
     method: "get",
     headers: {
       "Content-Type": "application/json",
